@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: 
+    linear-gradient(#000428 , #004e92);
+}
+
+.gradient-bg-welcome {
+  
+   background-image: 
+    linear-gradient(#000428 , #004e92);
+}
+
+.gradient-bg-services {
+  background-image:linear-gradient( #004e92,#000428);
+}
+
+.gradient-bg-transactions {
+  background-image:linear-gradient( #000428 , #004e92);
+
+}
+
+.gradient-bg-footer {
+  background-image:linear-gradient( #004e92,#000428);
+}
+
+.blue-glassmorphism {
+  background: rgb(255,255,255,0.1);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+/* white glassmorphism */
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.eth-card {
+  background-color:#a099ff;
+}
+.Features{
+  height:335px;
+  width:200px;
+  font-size: small;
+  background: rgb(255,255,255,0.1);
+  position:absolute;
+  top:350px;
+  border-radius:20px;
+  backdrop-filter: blur(5px);
+  padding:15px;
+  font-weight: bold;
+}
+
+.Features li{
+  border-radius: 10px;
+}
+
+ul{
+  text-align:center;
+  color:#fff;
+}
+
+
+
+.text-gradient {
+  background-color: #fff;
+  background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+}
+
+.dictionary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 4rem auto;
+  max-width: 90%;
+}
+
+.dictionary > .term {
+  text-align: center;
+  max-width: 20rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 3px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: all 100ms ease-in-out;
+}
+
+.dictionary > .term > dt {
+  margin-bottom: 1rem;
+}
+
+dt {
+  color: #2ec2b0;
+  line-height: 1;
+}
+
+dt span {
+  font-size: 200%;
+  font-weight: 900;
+}
+
+.emoji {
+  margin: 0 auto 20px;
+  display: block;
+  font-size: 400%;
+}
+
+dd {
+  font-size: 92.5%;
+  margin-left: 0;
+}
+
+dd dt {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-size: inherit;
+}
+
+dd dl {
+  font-size: 90%;
+  margin: 1rem auto 0 auto;
+  letter-spacing: 0.33px;
+  max-width: 15rem;
+}
+
+dd dl .term {
+  margin-bottom: 1rem;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.search-head {
+  margin: 10px;
+  font-size: 40px;
+}
+
+.search {
+  width: 30%;
+}
+
+.Searchbar{
+  border-radius: 10%;
+}
+
+ul li {
+  font-size: 20px;
+} 
+
+.text-inp ::-webkit-input-placeholder { /* Edge */
+  color:white;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
