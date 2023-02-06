@@ -18,12 +18,14 @@ The front-end for the underdevloped website
 
 
 Technologies used:
-Solidity
-Web3Storage for IPFS
-Vite + React,Tailwindcss, CSS3, HTML for front end  
-Remix IDE to test and deploy smart contracts
-VS code
-Github for openzeppeplin-contracts
-Web3.js
-MetaMask wallet (5ire network)
-5ireLabs
+<ul>
+  <li>Solidity</li>
+  <li>Web3Storage for IPFS</li>
+  <li>Vite + React,Tailwindcss, CSS3, HTML for front end</li>  
+  <li>Remix IDE to test and deploy smart contracts</li>
+  <li>VS code</li>
+  <li>Github for openzeppeplin-contracts</li>
+  <li>Web3.js</li>
+  <li>MetaMask wallet (5ire network)</li>
+  <li>5ireLabs</li>
+</ul>
