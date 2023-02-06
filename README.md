@@ -20,7 +20,7 @@ The front-end for the underdevloped website
 Technologies used:
 Solidity
 Web3Storage for IPFS
-Basic React, CSS3, HTMl for front end  
+Vite + React,Tailwindcss, CSS3, HTML for front end  
 Remix IDE to test and deploy smart contracts
 VS code
 Github for openzeppeplin-contracts
