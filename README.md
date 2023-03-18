@@ -29,3 +29,5 @@ Technologies used:
   <li>MetaMask wallet (5ire network)</li>
   <li>5ireLabs</li>
 </ul>
+
+The project is still in devlopment phase and not completed yet.
